@@ -15,7 +15,7 @@
 cc_binary {
     name: "vendor.qti.hardware.cryptfshw@1.0-service-qti.lineage",
     defaults: ["hidl_defaults"],
-    header_libs: ["generated_kernel_headers"],
+    header_libs: ["device_kernel_headers"],
     init_rc: ["vendor.qti.hardware.cryptfshw@1.0-service-qti.lineage.rc"],
     owner: "qti",
     product_variables: {
